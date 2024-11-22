@@ -1,0 +1,47 @@
+/* Add styles here *//* General Styles */
+body{
+    font: 16px times new roman;
+    background-color: rgb(224, 89, 89);
+}
+.container {
+    width: 800px;
+    margin:auto;
+    background-color: antiquewhite;
+}
+.header{
+    padding: 10px;
+}
+.content{
+    padding: 20px;
+}
+.content h2 {
+    font-size :40px
+}
+
+.header ul :nth-last-child{
+    display:inline-block;
+    margin-top:20px
+}
+.header {
+    text-decoration: none;
+    color: darkred;
+    padding: 3px;
+}
+.header a:hover{
+    background-color: blue;
+    color: bisque;
+}
+
+.hero{
+    height: 400px;
+    background-image:url(bernadya.jpg);
+    background-size: cover;
+    background-position: 0 -160px;
+    border-bottom: 5px solid bisque;
+    border-top: 5px solid darkred;
+}
+
+.content.penulis{
+    font-size: 11px;
+    margin-top: 5px;
+}
